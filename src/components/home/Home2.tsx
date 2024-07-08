@@ -7,19 +7,19 @@ import Tilt from "react-parallax-tilt";
 export default function Home2() {
   return (
     <div
-      className="relative max-w-screen-lg mx-auto bg-no-repeat pb-8 pt-8"
+      className="relative max-w-screen-lg mx-auto bg-no-repeat py-7 md:py-14 lg:py-24"
       id="about"
     >
-      <div className="">
-        <div className="text-center">
-          <h1 className="text-center text-4xl font-bold">
-            LET ME <span className="purple"> INTRODUCE </span> MYSELF
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full px-7">
+          <h1 className="text-center text-4xl font-bold py-7">
+            LET ME <span className="text-primary"> INTRODUCE </span> MYSELF
           </h1>
-          <p className="">
+          <p className="py-7">
             I fell in love with programming and I have at least learnt
             something, I think… 🤷‍♂️
             <br />
-            <br />I am fluent in classics like 
+            <br />I am fluent in classics like
             <i>
               <b className="text-primary"> Javascript and Typescript</b>
             </i>
@@ -39,7 +39,7 @@ export default function Home2() {
             </i>
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center py-7">
+        <div className="flex flex-col justify-center items-center px-7 py-7">
           <Tilt
             glareEnable={true}
             glareMaxOpacity={0.9}
@@ -48,8 +48,8 @@ export default function Home2() {
           >
             <Image
               src={"/assets/avatar.svg"}
-              width={250}
-              height={250}
+              width={300}
+              height={300}
               alt="avatar"
             />
           </Tilt>

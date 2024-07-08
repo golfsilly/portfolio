@@ -55,12 +55,12 @@ interface DefaultLayoutProps {
 export default async function DefaultLayout({ children }: DefaultLayoutProps) {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       {/* <Navbar /> */}
       <main className="flex flex-col max-w-screen-lg mx-auto py-0">
       {children}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

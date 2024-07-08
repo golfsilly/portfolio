@@ -12,12 +12,12 @@ export default function Home1() {
   return (
     <section>
       <div className="relative" id="home">
-        <Particle />
-        <div className="flex flex-col md:flex-row">
-          <div className="w-full py-14 md:py-14 lg:py-24">
+        {/* <Particle /> */}
+        <div className="flex flex-col md:flex-row py-10">
+          <div className="w-full py-4 md:py-7 lg:py-24">
             <h1
               className={cn(
-                "font-bold !pl-12 pb-4 text-primary text-3xl p-10 text-left font-poppins",
+                "font-bold !pl-12 pb-4 text-primary/90 text-4xl p-10 text-left font-poppins",
                 poppins.variable
               )}
             >
@@ -32,13 +32,13 @@ export default function Home1() {
             </h1>
 
             <h1 className="text-4xl font-normal !pl-11">
-              {"I'm "}
-              <strong className="text-primary">Panupong Namda</strong>
+              {"I'M "}
+              <strong className="text-primary/95">Panupong Namda</strong>
             </h1>
 
             <div
               className={cn(
-                "text-primary text-3xl p-10 text-left font-anton",
+                "text-primary text-4xl p-10 text-left font-anton",
                 anton.variable
               )}
             >
@@ -50,7 +50,7 @@ export default function Home1() {
             <Image
               src={"/assets/home-main.svg"}
               alt="home1"
-              width={650}
+              width={750}
               height={450}
               className="max-h-[450px]"
             />
