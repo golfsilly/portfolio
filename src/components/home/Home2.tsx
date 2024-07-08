@@ -1,18 +1,28 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import Tilt from "react-parallax-tilt";
+import AOS from "aos";
 
 export default function Home2() {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+    });
+  }, []);
+
   return (
-    <div
-      className="relative max-w-screen-lg mx-auto bg-no-repeat py-7 md:py-14 lg:py-24"
+    <section
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      data-aos-delay="100"
+      className="relative max-w-screen-lg mx-auto bg-no-repeat py-7 md:py-14 lg:py-14"
       id="about"
     >
       <div className="flex flex-col md:flex-row">
         <div className="w-full px-7">
-          <h1 className="text-center text-4xl font-bold py-7">
+          <h1 className="text-center text-4xl font-bold py-4">
             LET ME <span className="text-primary"> INTRODUCE </span> MYSELF
           </h1>
           <p className="py-7">
@@ -95,6 +105,6 @@ export default function Home2() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

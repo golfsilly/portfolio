@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import "@radix-ui/themes/styles.css";
+import "aos/dist/aos.css";
 import { cn } from "@/lib/utils";
 import { sarabun } from "@/config/fonts";
 import { NextThemeProvider } from "@/provider/ThemeProvider";

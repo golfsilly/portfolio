@@ -4,15 +4,13 @@ import React from "react";
 import Image from "next/image";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Particle from "../Particle";
 import { cn } from "@/lib/utils";
-import { anton, italianno, merriweather, pacifico, poppins } from "@/config/fonts";
+import { anton, poppins } from "@/config/fonts";
 
 export default function Home1() {
   return (
     <section>
       <div className="relative" id="home">
-        {/* <Particle /> */}
         <div className="flex flex-col md:flex-row py-10">
           <div className="w-full py-4 md:py-7 lg:py-24">
             <h1
