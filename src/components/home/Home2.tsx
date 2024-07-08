@@ -48,7 +48,7 @@ export default function Home2() {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center py-7">
-            <Tilt>
+            <Tilt glareEnable={true} glareMaxOpacity={0.9}  glarePosition="all" glareBorderRadius="20px">
               <Image src={"/assets/avatar.svg"} width={250} height={250} alt="avatar" />
             </Tilt>
           </div>
