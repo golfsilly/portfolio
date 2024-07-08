@@ -10,7 +10,7 @@ import { siteMetadata } from "@/config/siteMetadata";
 import { Metadata } from "next";
 import Cookie from "@/components/CookieConsent";
 import { Toaster } from "@/components/ui/sonner";
-import ScrollToTop from "@/components/scroll-to-top";
+import { ScollToTop } from "@/components/ScollToTop";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "golfsilly",
-      url: "www.golfsilly.com",
+      url: "https://golfsilly.vercel.app",
     },
   ],
   creator: "golfsilly",
@@ -71,7 +71,7 @@ export default function RootLayout({
         <NextThemeProvider>
           <RadixThemeProvider>
             {children}
-            <ScrollToTop />
+            <ScollToTop />
             <Cookie />
             <Toaster position="top-right" expand={false} richColors />
           </RadixThemeProvider>

@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 
 export default function Home2() {
   return (
-    <div className="relative bg-no-repeat pb-8 pt-8 bg-red-100" id="about">
+    <div className="relative bg-no-repeat pb-8 pt-8" id="about">
       <div>
         <div className="">
           <div  className="home-about-description">
@@ -47,9 +47,9 @@ export default function Home2() {
               </i>
             </p>
           </div>
-          <div className="!justify-center !pt-10">
+          <div className="flex flex-col justify-center items-center py-7">
             <Tilt>
-              <Image src={"/assets/avatar.svg"} width={300} height={300} className="" alt="avatar" />
+              <Image src={"/assets/avatar.svg"} width={250} height={250} alt="avatar" />
             </Tilt>
           </div>
         </div>

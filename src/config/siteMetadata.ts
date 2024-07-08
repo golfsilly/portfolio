@@ -5,7 +5,7 @@ export const siteMetadata = {
   headerTitle: 'golfsilly',
   language: 'en-us',
   theme: 'light',
-  siteUrl: 'https://golfsilly.com',
+  siteUrl: 'https://golfsilly.vercel.app',
   email: 'pnpnd2107@gmail.com',
   locale: 'en-US',
 }

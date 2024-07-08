@@ -18,36 +18,7 @@ export default function Footer() {
               /> */}
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-3 sm:gap-3 sm:grid-cols-3">
-            <section>
-              <Label>
-                <h3 className="text-[14px] font-bold mb-3 text-white">
-                  สำหรับเจ้าหน้าที่
-                </h3>
-              </Label>
-              <ul>
-                <li>
-                  <Link
-                    href="http://www.aranhos.moph.go.th/payslip/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline text-[14px] leading-[1.3] text-gray-400 mb-1 block"
-                  >
-                    ขอใบรับรองเงินเดือน
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="https://aranh.thai-nrls.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline text-[14px] leading-[1.3] text-gray-400 mb-1 block"
-                  >
-                    รายงานความเสี่ยง
-                  </Link>
-                </li>
-              </ul>
-            </section>
+          <div className="grid grid-cols-2 sm:grid-cols-2 gap-3 sm:gap-3">
             <section>
               <Label>
                 <h3 className="text-[14px] font-bold mb-3 text-white">
@@ -60,23 +31,7 @@ export default function Footer() {
                     href="/about"
                     className="hover:underline text-[14px] leading-[1.3] text-gray-400 mb-1 block "
                   >
-                    ประวัติความเป็นมา
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/vision-mission-value"
-                    className="hover:underline text-[14px] leading-[1.3] text-gray-400 mb-1 block"
-                  >
-                    วิสัยทัศน์และพันธกิจ
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/team"
-                    className="hover:underline text-[14px] leading-[1.3] text-gray-400 mb-1 block"
-                  >
-                    โครงสร้างหน่วยงาน
+                    เกี่ยวกับฉัน
                   </Link>
                 </li>
                 <li>

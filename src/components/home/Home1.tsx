@@ -11,7 +11,7 @@ import { anton, italianno, merriweather, pacifico } from "@/config/fonts";
 export default function Home1() {
   return (
     <section>
-      <div className="relative bg-red-50 pb-8 pt-8" id="home">
+      <div className="relative pb-8 pt-8" id="home">
         <Particle />
         <div className="">
           <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto">

@@ -13,29 +13,29 @@ type Props = {
 
 export default function Header() {
   return (
-    <header className="bg-slate-800 dark:bg-black">
-      <div className="flex justify-end px-2 py-2 sm:px-2 sm:py-1.5 lg:px-4 lg:py-1.5">
+    <header className="bg-slate-800 dark:bg-slate-800">
+      <div className="flex justify-end px-7 py-7 sm:px-7 sm:py-7 lg:px-10 lg:py-10">
         <div className="flex items-center sm:mr-0 gap-0">
           <div className="hidden sm:block">
-            <div className="flex flex-row">
+            {/* <div className="flex flex-row">
               <Mail className="h-4 w-4  text-slate-400" aria-hidden="true" />
               <Link
                 href="mailto:aranhos.team@gmail.com"
                 className="ml-1 mr-2 text-xs text-slate-400 hover:text-indigo-400 hover:underline"
               >
-                aranhos.team@gmail.com
+                pnpnd2107@@gmail.com
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex">
-            <Phone className="h-4 w-4  text-slate-400" aria-hidden="true" />
+            {/* <Phone className="h-4 w-4  text-slate-400" aria-hidden="true" />
             <Link
               href="tel:0372330333"
               className="ml-1 mr-2 text-xs text-slate-400 hover:text-indigo-400 hover:underline"
             >
-              037 233 033
-            </Link>
+             0995489121
+            </Link> */}
           </div>
 
           <div className="flex mr-2">
