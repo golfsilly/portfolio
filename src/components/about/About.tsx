@@ -30,7 +30,7 @@ function About() {
         <h1 className="text-3xl font-medium pt-2">
           <strong className="text-primary">Tools</strong> I use
         </h1>
-        <Toolstack />
+        {/* <Toolstack /> */}
 
         <Github />
       </div>
