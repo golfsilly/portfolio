@@ -1,6 +1,10 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* cookie css */
+@import "./cookie.css";
 
 @layer base {
   :root {

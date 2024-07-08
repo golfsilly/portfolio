@@ -1,8 +1,8 @@
 export const siteMetadata = {
-  title: 'golfsilly',
+  title: 'Golfsilly',
   description: 'Portfolio Golfsilly',
-  author: 'golfsilly',
-  headerTitle: 'golfsilly',
+  author: 'Golfsilly',
+  headerTitle: 'Golfsilly',
   language: 'en-us',
   theme: 'light',
   siteUrl: 'https://golfsilly.vercel.app',
