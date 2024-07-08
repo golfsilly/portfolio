@@ -10,12 +10,12 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
-              <Image
-                src="/images/logoaranhos.png"
+              {/* <Image
+                src="/images/"
                 width={170}
                 height={170}
                 alt="Aranhos Logo"
-              />
+              /> */}
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-3 sm:gap-3 sm:grid-cols-3">

@@ -1,4 +1,4 @@
-import { Anton, Athiti, Charmonman, Chonburi, Dancing_Script, IBM_Plex_Sans_Thai, Inter, Italianno, Kanit, Mali, Merriweather, Mitr, Montserrat, Niramit, Noto_Sans_Thai, Noto_Serif_Thai, Nunito, Pacifico, Pattaya, Poppins, Prompt, Sacramento, Sarabun, Sriracha } from 'next/font/google'
+import { Anton, Athiti, Charmonman, Dancing_Script, IBM_Plex_Sans_Thai, Inter, Italianno, Kanit, Mali, Merriweather, Mitr, Montserrat, Niramit, Noto_Sans_Thai, Noto_Serif_Thai, Nunito, Pacifico, Pattaya, Poppins, Prompt, Sacramento, Sarabun, Sriracha } from 'next/font/google'
 
 export const inter = Inter({
   weight: ['300', '400', '500', '600', '700', '800'],
@@ -34,12 +34,6 @@ export const mali = Mali({
   weight: ['300', '400', '500', '600', '700'],
   subsets: ["thai"],
   variable: "--font-mali",
-})
-
-export const chonburi = Chonburi({
-  weight: ['400'],
-  subsets: ["thai"],
-  variable: "--font-chonburi",
 })
 
 export const pattaya = Pattaya({
