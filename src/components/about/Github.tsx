@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 
 function Github() {
   return (
-    <div className="flex flex-col justify-center items-center text-center mx-auto pb-14">
+    <div className="flex flex-col justify-center items-center text-center mx-auto py-7">
       <h1 className="text-3xl font-medium pt-2">
         Days I <strong className="text-primary">Code</strong>
       </h1>

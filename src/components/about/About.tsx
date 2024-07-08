@@ -8,33 +8,29 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div className="">
-      <div>
-        {/* <div>
-          <div>
-            <h1 >
-              Know Who <strong className="text-primary">I</strong>
-            </h1>
-            <Aboutcard />
-          </div>
-          <div>
-            <Image src={"/assets/about.png"} width={400} height={400} alt="about" className="" />
-          </div>
-        </div> */}
-          <h1 className="text-3xl font-medium pt-2">
-          Professional <strong className="text-primary">Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="text-3xl font-medium pt-2">
-          <strong className="text-primary">Tools</strong> I use
-        </h1>
-        {/* <Toolstack /> */}
-
-        <Github />
+    <section>
+      <div className="flex flex-col md:flex-row px-4 py-10 gap-6">
+        <div className="flex flex-col">
+          <h1 className="text-3xl font-medium px-7 py-4">
+            Know Who <strong className="text-primary">I</strong>
+          </h1>
+          <Aboutcard />
+        </div>
+        <div className="flex flex-col justify-center items-center px-3 py-3">
+          <Image
+            src={"/assets/about.png"}
+            width={450}
+            height={350}
+            alt="about"
+            className=""
+          />
+        </div>
       </div>
-    </div>
+
+      <Techstack />
+      <Toolstack />
+      <Github />
+    </section>
   );
 }
 
