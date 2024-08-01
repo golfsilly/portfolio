@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-export async function GET() {
+export async function GET( req: NextRequest, res: NextResponse) {
     try {
         const root = "Hello Golfsilly API 🌻🌍"
         return NextResponse.json({ status: 200, results: root });

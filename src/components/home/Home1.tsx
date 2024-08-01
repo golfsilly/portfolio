@@ -1,18 +1,30 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Home2 from "./Home2";
 import Type from "./Type";
 import { cn } from "@/lib/utils";
 import { anton, poppins } from "@/config/fonts";
+import AOS from "aos";
 
 export default function Home1() {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+    });
+  }, []);
+
   return (
     <section>
       <div className="relative" id="home">
         <div className="flex flex-col md:flex-row py-10">
-          <div className="w-full py-4 md:py-7 lg:py-24">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2500"
+            data-aos-delay="200"
+            className="w-full py-4 md:py-7 lg:py-24"
+          >
             <h1
               className={cn(
                 "font-bold !pl-12 pb-4 text-primary/90 text-4xl p-10 text-left font-poppins",
@@ -44,7 +56,12 @@ export default function Home1() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center mx-auto ">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="2500"
+            data-aos-delay="200"
+            className="flex flex-col justify-center mx-auto "
+          >
             <Image
               src={"/assets/home-main.svg"}
               alt="home1"

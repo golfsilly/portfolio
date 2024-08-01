@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import React, { useEffect } from "react";
+import Image from "next/image";
 import Tilt from "react-parallax-tilt";
 import AOS from "aos";
 
@@ -67,18 +67,18 @@ export default function Home2() {
       </div>
       <div>
         <div className="home-about-social">
-          {/* <h1>FIND ME ON</h1>
+          <h1>FIND ME ON</h1>
           <p>
-            Feel free to <span className="purple">connect </span>with me
-          </p> */}
+            Feel free to <span className="text-primary">connect </span>with me
+          </p>
           <ul className="home-about-social-links">
-            {/* <li className="social-icons">
+            <li className="social-icons">
                 <a
                   href="https://github.com/golfsilly"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                >github
+                >  
                 </a>
               </li>
               <li className="social-icons">
@@ -101,7 +101,7 @@ export default function Home2() {
                   instagram
                  
                 </a>
-              </li> */}
+              </li>
           </ul>
         </div>
       </div>
